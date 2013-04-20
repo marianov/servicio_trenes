@@ -22,7 +22,6 @@
             for(tren in data){
               if(parseInt(data[tren].lat)){
                 markersArray[i].setPosition(new google.maps.LatLng(data[tren].lat, data[tren].lng));
-                addMarker();
                 ++i;
               }
             }
