@@ -6,4 +6,4 @@ Para instalarlo:
 
 Para correrlo
 --------------
-python index.py
+	python index.py
