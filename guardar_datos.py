@@ -4,6 +4,12 @@ import urllib2
 import pprint
 import ipdb
 
+# 
+# Este script se puede corre con algo que guarde el output para armar un historico de calidad de servicio. Algo como:
+# 
+# watch -n 4 "python test.py  | tee -a markers.txt"
+# 
+
 pp = pprint.PrettyPrinter(indent=4)
 
 # Respuesta ajax de mapa
